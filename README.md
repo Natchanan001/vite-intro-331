@@ -1,39 +1,21 @@
-# 331-intro-to-vite
+# 🧪 Vue Lab 02 — Component-Based(Mock API)
+## 🔗 Check Point 2.5
+![vue-lab02(1)](https://github.com/user-attachments/assets/51e06e6b-12d9-444d-8852-9f602d4407a2)
+## 🔗 Check Point 14.5
 
-This template should help get you started developing with Vue 3 in Vite.
+View your mock events data here(***update for lab03 point 2.2***):  
+👉 **[https://my-json-server.typicode.com/Thippharake-NaChiengmai/lab02-db.json/events](https://my-json-server.typicode.com/Thippharake-NaChiengmai/lab02-db.json/events)**
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+👉***Reference:https://github.com/Thippharake-NaChiengmai/lab02-db.json***
+# 🧪 Vue Lab 03 — Component-Based (Vue Router)
+## 🔗 Check Point 1.4
+👉 **http://localhost:5173/event/5928101**
+## 🔗 Check Point 2.4
+👉 **http://localhost:5173/?page=1**
+## 🔗 Check Point 5.1
+👉TEST!!! **http://localhost:5173/999999**
+## 🔗 Check Point 6.0-6.6
+👉 **https://github.com/Thippharake-NaChiengmai/component-based-passenger-app**
+# 🧪 Vue Lab 04 — Component-Based(Vue Router and Pinia)
+## 🔗 Check Point 6.1-6.5
+👉 **https://github.com/Thippharake-NaChiengmai/component-based-passenger-app**
