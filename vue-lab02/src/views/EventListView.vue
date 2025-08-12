@@ -46,15 +46,8 @@ onMounted(() => {
 <template>
    <h1>Events For Good</h1>
    <!-- new element -->
-  <div class="events-wrapper">
-    <div
-      class="event"
-      v-for="event in events"
-      :key="event.id"
-    >
-      <EventCard :event="event" />
-      <EventMeta :event="event" />
-    </div>
+  <div class="flex flex-col items-center">
+    <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
   <div class="pagination">
   <RouterLink
@@ -90,19 +83,7 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.events-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.event {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  width: 320px;
-}
+/* Removed .events-wrapper and .event classes as per instructions */
 
 .pagination {
   display: flex;
